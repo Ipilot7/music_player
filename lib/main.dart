@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:solid/playingMusicwithstorage.dart';
+import 'package:solid/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,13 +8,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const ListMusicFromStorage(),
+      home: const Home(),
     );
   }
 }
